@@ -1,16 +1,9 @@
-// Middleware de autenticação
+// // src/middlewares/auth.middleware.ts
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import { secretKey } from '../utils/jwt';
 
-interface AuthenticatedRequest extends Request {
-  user?: {
-    id: number;
-    email?: string;
-  };
-}
-
-export function authMiddleware(req: AuthenticatedRequest, res: Response, next: NextFunction) {
+export function authMiddleware(req: Request, res: Response, next: NextFunction) {
   const authHeader = req.headers.authorization;
 
   if (!authHeader) {
