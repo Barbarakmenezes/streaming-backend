@@ -102,5 +102,5 @@ Authorization: Bearer seu_token_aqui
 ## 📫 Contato
 
 - **Nome**: Barbara Menezes
-- **LinkedIn**: [SeuPerfil](https://www.linkedin.com/in/seu-perfil)
-- **Email**: seu-email@exemplo.com
+- **LinkedIn**: [SeuPerfil](https://www.linkedin.com/in/b%C3%A1rbara-menezes-541843233/)
+- **Email**: barbarakerolaine@hotmail.com
